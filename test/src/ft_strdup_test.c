@@ -4,8 +4,6 @@
 
 #include "test.h"
 
-char *ft_strdup(const char *str);
-
 static int	ft_strdup_test(const char *str)
 {
 	if (!str)

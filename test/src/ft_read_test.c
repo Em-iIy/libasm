@@ -10,8 +10,6 @@
 
 #define TEST_FILE_NAME "temp"
 
-ssize_t ft_read(int fd, void *buf, size_t count);
-
 static int	ft_read_test_more_than_file_size()
 {
 	const char *contents = "123456789";

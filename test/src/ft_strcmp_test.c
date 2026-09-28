@@ -4,8 +4,6 @@
 
 #include "test.h"
 
-int	ft_strcmp(const char *s1, const char *s2);
-
 static int	ft_strcmp_test(const char *s1, const char *s2)
 {
 	if (!s1 || !s2)

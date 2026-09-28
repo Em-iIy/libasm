@@ -10,8 +10,6 @@
 
 #define TEST_FILE_NAME "temp"
 
-ssize_t ft_write(int fd, const void *buf, size_t count);
-
 /*
 open file
 write to file

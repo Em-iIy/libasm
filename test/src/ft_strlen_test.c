@@ -3,8 +3,6 @@
 
 #include "test.h"
 
-size_t ft_strlen(const char *str);
-
 static int	ft_strlen_test(const char *test_str)
 {
 	if (!test_str)

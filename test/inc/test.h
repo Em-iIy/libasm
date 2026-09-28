@@ -2,6 +2,7 @@
 # define TEST_H
 
 # include <stdbool.h>
+# include "../../libasm.h"
 # include "color.h"
 
 int		test(bool result);

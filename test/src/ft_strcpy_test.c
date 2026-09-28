@@ -4,8 +4,6 @@
 
 #include "test.h"
 
-char *ft_strcpy(char *dest, const char *src);
-
 static int	ft_strcpy_test(const char *src)
 {
 	if (!src)
