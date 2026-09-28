@@ -1,0 +1,3 @@
+*.o
+libasm.a
+test/run
