@@ -15,7 +15,7 @@ ft_strcpy:
 	mov	[rdi + rax], r10b		; store char at r10b in dest[rax]
 	inc	rax						
 	cmp	r10b, 0x0				; check null terminator
-	jne .loop					; loop if (src[rax] != 0)
+	jnz .loop					; loop if (src[rax] != 0)
 
 .return:
 	mov	rax, rdi	; store dest pointer in return

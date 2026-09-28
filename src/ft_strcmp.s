@@ -18,7 +18,7 @@ ft_strcmp:
 	mov	r11b, byte [rsi + rax]	; store s2[rax] in r11
 
 	cmp	r10b, 0x0				; check for null terminator
-	je	.return					; return
+	jz	.return					; return
 
 	inc	rax						; increment rax
 	cmp	r10b, r11b				; compare s1[rax] and s2[rax]

@@ -17,7 +17,7 @@ ft_strdup:
 	mov		rdi, rax			; move length to malloc parameter
 	call	malloc wrt ..plt	; malloc
 	cmp		rax, 0x0			; check malloc return
-	je		.error
+	jz		.error
 	mov		rdi, rax			; move allocated pointer to strcpy 1st parameter
 	pop		rsi					; retrieve input string from stack int 2nd parameter
 	call 	ft_strcpy			; strcpy
