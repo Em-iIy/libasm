@@ -49,6 +49,8 @@ clean:
 
 fclean: clean
 	rm -f $(NAME)
+	$(MAKE) -C test fclean
+
 .PHONY: fclean
 
 re: fclean all
